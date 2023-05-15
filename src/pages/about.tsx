@@ -20,19 +20,15 @@ const About = () => {
               />
             </div>
             <div className='w-[60%]'>
-              <h1 className='text-2xl font-medium'>Who I am?</h1>
-              <p className='pt-3 text-base'>
-                I am a driven and creative individual with a passion for technology and a thirst for knowledge. Throughout my academic career, I have consistently challenged myself to learn new skills and push my boundaries, and I am excited to keep this same mindset in the professional world.
-                <br/>
-                I am constantly seeking out new challenges and opportunities to learn new things while I do my job with love and joy!
-                <br />
-                Beyond my technical abilities, I also take pride in my ability to work well with others and help others, I am a strong believer in the power of collaboration and teamwork!
-                <br />
-                Looking ahead to my future career, I am eager to continue growing and developing as a professional in the field of technology. With my passion for innovation, dedication to learn, and strong work ethic.
-              </p>
+              <h2 className='text-2xl font-medium'>Who I am?</h2>
+              <div className='pt-3 text-base'>
+                <p className='p-2'>I am a driven and creative individual with a passion for technology and a thirst for knowledge. Throughout my academic career, I have consistently challenged myself to learn new skills and push my boundaries, and I am excited to keep this same mindset in the professional world.</p>
+                <p className='p-2'>I am constantly seeking out new challenges and opportunities to learn new things while I do my job with love and joy!</p>
+                <p className='p-2'>Beyond my technical abilities, I also take pride in my ability to work well with others and help others, I am a strong believer in the power of collaboration and teamwork!</p>
+                <p className='p-2'>Looking ahead to my future career, I am eager to continue growing and developing as a professional in the field of technology. With my passion for innovation, dedication to learn, and strong work ethic.</p>
+              </div>
             </div>
           </div>
-
           <div className='flex p-[12px] flex-col items-center justify-center gap-12 sm:gap-4 sm:flex-row-reverse'>
             <div className='bg-slate-200 inline-block rounded-full'>
               <StaticImage
@@ -44,23 +40,9 @@ const About = () => {
               />
             </div>
             <div className='w-[60%]'>
-              <h1 className='text-2xl font-medium pb-3'>My Education</h1>
+              <h2 className='text-2xl font-medium pb-3'>My Education</h2>
               <ul className=' flex flex-col gap-2'>
-                <h1 className='font-medium text-lg  pb-1'>Basic</h1>
-                <li>
-                  [2006 San Miguel/ ES]{' '}
-                  <span className=' italic'>
-                    Primary Education/ kindergarten:
-                  </span>{' '}
-                  Centro Escolar Colonia Santa Luisa.
-                </li>
-                <li>
-                  [2016 San Miguel/ ES]{' '}
-                  <span className=' italic'>
-                    Basic Education/1st - 9th grade:
-                  </span>{' '}
-                  Complejo Educativo Católico Santa Sofia.
-                </li>
+                <h3 className='font-medium text-lg  pb-1'>Basic</h3>
                 <li>
                   [2018 San Miguel/ ES]{' '}
                   <span className='italic'>Middle Education/High school:</span>{' '}
@@ -89,7 +71,7 @@ const About = () => {
                   <span className=' italic'>React Training</span> Applaudo
                 </li>
               </ul>
-              <h1 className='text-2xl font-medium pb-3 pt-3'>My Experience</h1>
+              <h2 className='text-2xl font-medium pb-3 pt-3'>My Experience</h2>
               <ul className=' flex flex-col gap-2'>
                 <li>
                   [2021 San Salvador/ ES]{' '}
@@ -105,11 +87,11 @@ const About = () => {
                   </span>{' '}
                   Applaudo
                 </li>
-                </ul>
+              </ul>
             </div>
           </div>
-          <div className='flex p-[12px] flex-col items-center justify-center gap-12 sm:gap-4 sm:flex-row'>
-            <div className='bg-slate-400 inline-block rounded-full '>
+          <div className='w-[100%] flex p-[12px] flex-col items-center justify-around gap-12 sm:gap-4 sm:flex-row'>
+            <div className='bg-slate-400 inline-block rounded-full mx-0 sm:mx-12'>
               <StaticImage
                 src='./../images/experience.png'
                 alt='education'
@@ -118,80 +100,80 @@ const About = () => {
                 placeholder='blurred'
               />
             </div>
-            <div className='w-[70%] sm:w-[100%]'>
-              <h1 className='text-2xl font-medium pb-3'>Skills</h1>
+            <div className='w-[100%] sm:w-[60%]'>
+              <h2 className='text-2xl font-medium pb-3'>Skills</h2>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-pink-400 text-slate-100 '>
                   JavaScript
                 </span>
-                <div className='w-[100%] bg-pink-500'></div>
+                <div  className='w-[100%] bg-pink-500 '></div>
                 <span className='px-2'>100%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-green-400 text-slate-100 '>
                   Scrum
                 </span>
-                <div className='w-[100%] bg-green-500'></div>
+                <div  className='w-[100%] bg-green-500 '></div>
                 <span className='px-2'>100%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-orange-300 text-slate-100'>React</span>
-                <div className='w-[100%] bg-orange-400'></div>
+                <div  className='w-[100%] bg-orange-400 '></div>
                 <span className='px-2'>100%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-cyan-300 text-slate-100'>HTML</span>
-                <div className='w-[90%] bg-cyan-400'></div>
+                <div  className='w-[100%] bg-cyan-400 '></div>
                 <span className='px-2'>100%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-teal-300 text-slate-100'>CSS</span>
-                <div className='w-[100%] bg-teal-400'></div>
+                <div  className='w-[100%] bg-teal-400 '></div>
                 <span className='px-2'>100%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-purple-400 text-slate-100'>
                   TypeScript
                 </span>
-                <div className='w-[95%] bg-purple-500'></div>
+                <div  className='w-[95%] bg-purple-500 '></div>
                 <span className='px-2'>95%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-rose-400 text-slate-100'>
-                  Next JS
+                  NextJS
                 </span>
-                <div className='w-[90%] bg-rose-500'></div>
+                <div  className='w-[90%] bg-rose-500 '></div>
                 <span className='px-2'>90%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-blue-400 text-slate-100'>
-                  Gatsby 
+                  Gatsby
                 </span>
-                <div className='w-[50%] bg-blue-500'></div>
+                <div  className='w-[50%] bg-blue-500 '></div>
                 <span className='px-2'>50% </span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-lime-400 text-slate-100'>
                   Tailwind
                 </span>
-                <div className='w-[95%] bg-lime-500'></div>
+                <div  className='w-[95%] bg-lime-500 '></div>
                 <span className='px-2'>95%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-red-300 text-slate-100'>C++</span>
-                <div className='w-[60%] bg-red-400'></div>
+                <div  className='w-[60%] bg-red-400 '></div>
                 <span className='px-2'>60%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-emerald-400 text-slate-100'>
                   Mongo
                 </span>
-                <div className='w-[80%] bg-emerald-500'></div>
+                <div  className='w-[80%] bg-emerald-500 '></div>
                 <span className='px-2'>80%</span>
               </div>
               <div className='bg-gray-200 flex mb-4'>
-                <span className='px-2 bg-red-300 text-slate-100'>Spring Boot</span>
-                <div className='w-[50%] bg-red-400'></div>
+                <span className='px-2 bg-yellow-300 text-slate-100'>Spring Boot</span>
+                <div  className='w-[50%] bg-yellow-400 '></div>
                 <span className='px-2'>50%</span>
               </div>
             </div>

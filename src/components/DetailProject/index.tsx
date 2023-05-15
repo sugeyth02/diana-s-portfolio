@@ -29,11 +29,9 @@ const DetailProject = ({ data }: IProps) => {
   return (
     <div className='max-w-5xl w-full mx-auto pt-4 px-4 mb-[96px]'>
       <Link className='absolute top-32 left-4' to='/projects'>
-        {/* <FontAwesomeIcon
-          icon={faArrowLeft}
-          size='2x'
-          className='hover:text-orange-300 hover:pointer text-[#262625]'
-  /> */}
+        <svg xmlns="http://www.w3.org/2000/svg" height={32} width={32} fill='#262625' viewBox="0 0 448 512" className='hover:text-orange-300 hover:pointer text-[#262625]'>
+          <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+        </svg>
       </Link>
       <div className='flex items-center w-full justify-center gap-4 pt-9'>
         <GatsbyImage image={logoImage!} alt={title} />
