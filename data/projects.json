@@ -1,0 +1,145 @@
+[
+  {
+    "id": 2,
+    "layout": "single-project",
+    "slug": "weather-app",
+    "title": "Weather App",
+    "link": "https://github.com/sugeyth02/Weather-App",
+    "preview": "The Weather App help us to see how is the weather in an specific location showing us the current weather and the weather of the coming 5 days",
+    "logo": "./images/week02/logo.png",
+    "images": [
+      "./images/week02/week02_slide1.jpg",
+      "./images/week02/week02_slide2.jpg",
+      "./images/week02/week02_slide3.jpg"
+    ],
+    "description": "The Weather App help us to see how is the weather in an specific location showing us the current weather and the weather of the coming 5 days, also each location shows a detailed information about the minimum and maximum temperature, the percentage of humidity and predictability. All this information is powered by https://www.metaweather.com/api/ .",
+    "applied_concepts": [
+      "Asynchrnous requests",
+      "Promises",
+      "Fetching Data",
+      "Creation of dynamic DOM elements",
+      "CSS animations"
+    ],
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "slug": "sumbler-app",
+    "layout": "single-project",
+    "title": "Sumbler App",
+    "link": "https://github.com/sugeyth02/Sumbler-App",
+    "preview": "Sumbler is a simulation of a social media platforms of posts like tumblr and relatedes",
+    "logo": "./images/week03/logo.png",
+    "images": [
+      "./images/week03/week03_slide1.jpg",
+      "./images/week03/week03_slide2.jpg",
+      "./images/week03/week03_slide3.jpg"
+    ],
+    "description": "Sumbler is a simulation of a social media platforms of posts like tumblr and relatedes, where we can publish some posts with tags, handled published posts, editing and deleting it, also the app has the feature to comment on posts of other authors.",
+    "applied_concepts": [
+      "Factory Pattern",
+      "Promises",
+      "Fetching Data",
+      "POST, PUT and DELETE",
+      "Throttle and Debounce High Order Functions",
+      "Classes"
+    ],
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+ 
+  {
+    "id": 6,
+    "layout": "single-project",
+    "slug": "game-blog-typescript",
+    "title": "Game Blog [TS + Routes + useReducer]",
+    "link": "https://react-week06.vercel.app/",
+    "preview": "Game Blog is an app that simulate a game shop online, in this project i upgrade the project to typeScript",
+    "logo": "./images/week06/logo.png",
+    "images": [
+      "./images/week06/week06_slide1.jpg",
+      "./images/week06/week06_slide2.jpg",
+      "./images/week06/week06_slide3.jpg"
+    ],
+    "description": "Game Blog is an app that simulate a game shop online, with out the payment feature. The App shows a list of games and all the descriptions about the publishers, platforms available, price, etc. it shows the in this project. In this project i upgrade the project to typeScript",
+    "applied_concepts": [
+      "Types",
+      "Interfaces",
+      "Linters",
+      "Enums",
+      "React Router",
+      "UseReducer Hook",
+      "UseEffect Hook",
+      "UseRef Hook",
+      "UseCallback Hook",
+      "Prettier",
+      "useMemo Hook",
+      "Memo Hook",
+      "Custom Hooks"
+    ],
+    "tags": ["HTML", "CSS", "TypeScript", "React"]
+  },
+  {
+    "id": 7,
+    "slug": "time-machine-tic-tac-toe",
+    "title": "Time Machine - Tic Tac Toe",
+    "link": "https://react-week07.vercel.app/",
+    "preview": "The project is about two games. Time Machine and a Tic Tac Toe",
+    "logo": "./images/week07/logo.png",
+    "images": [
+      "./images/week07/week07_slide1.jpg",
+      "./images/week07/week07_slide2.jpg",
+      "./images/week07/week07_slide3.jpg"
+    ],
+    "description": "The project is about two games. Time Machine is game that saves the clicks that a user made in a matrix in order to show the trip that the user made at the end. Tic Tac Toe is the common x and cero game, but this one has one special functionality, the preview one that basically shows a reprise of the game.",
+    "applied_concepts": [
+      "Generics",
+      "Use Ref",
+      "Custom Hooks",
+      "UseReducer Hook",
+      "React Router"
+    ],
+    "tags": ["HTML", "SASS", "TypeScript", "React"]
+  },
+  {
+    "id": 8,
+    "slug": "marvel-app",
+    "title": "Marvel App",
+    "link": "https://react-week08.vercel.app/",
+    "preview": "The marvel app it's a blog that show the characters, comics and stories of the Marvel World, with the features of searching and filtering the information",
+    "logo": "./images/week08/logo.png",
+    "images": [
+      "./images/week08/week08_slide1.jpg",
+      "./images/week08/week08_slide2.jpg",
+      "./images/week08/week08_slide3.jpg"
+    ],
+    "description": "The marvel app it's a blog that show the characters, comics and stories of the Marvel World, with the features of searching and filtering the information. Also in this project i applied some special functionalities that make the blog more interesting, the first one is the bookmark section where the user of the app can save the characters and the comics that he or she likes and it shows all the bookmarks in a page, the second functionality is about hidden characters or comics, in the case that the user does not like some of those he or she can hide it and it would not be shown on the lists",
+    "applied_concepts": [
+      "Redux",
+      "UseState",
+      "Custom Hooks",
+      "Layouts",
+      "React Router"
+    ],
+    "tags": ["HTML", "SASS", "TypeScript", "React","Testing"]
+  },
+  {
+    "id": 10,
+    "slug": "feria-solidaridad",
+    "title": "Feria Solidaridad",
+    "link": "https://www.uca.edu.sv/servicio-social/feria-solidaridad",
+    "preview": "Feria de la solidaridad it's a project that i made for my social service at my university, the goal of this project was to create a website were the students of the university can see the diferent options that they have to make their social service. ",
+    "logo": "./images/feria-solidaridad/logo-feria.png",
+    "images": [
+      "./images/feria-solidaridad/feria-solidaridad1.png",
+      "./images/feria-solidaridad/feria-solidaridad2.png",
+      "./images/feria-solidaridad/feria-solidaridad3.png"
+    ],
+    "description": "Feria de la solidaridad it's a project that i made for my social service at my university, the goal of this project was to create a website were the students of the university can see the diferent options that they have to make their social service. ",
+    "applied_concepts": [
+      "NextJs",
+      "Typscript",
+      "Styled Components"
+    ],
+     "tags": ["TypeScript", "NextJS", "Styled Components"]
+  }
+]

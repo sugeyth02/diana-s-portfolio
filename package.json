@@ -1,0 +1,49 @@
+{
+  "name": "react-week10",
+  "version": "1.0.0",
+  "private": true,
+  "description": "react-week10",
+  "author": "Sugeyth Rodriguez",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "gastby": "^1.0.1",
+    "gatsby": "^4.12.1",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-transformer-json": "^4.12.1",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-tsparticles": "^1.43.1",
+    "swiper": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "@types/react-slick": "^0.23.8",
+    "@types/slick-carousel": "^1.6.37",
+    "autoprefixer": "^10.4.4",
+    "gatsby-plugin-postcss": "^5.12.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3"
+  }
+}
