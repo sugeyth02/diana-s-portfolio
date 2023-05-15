@@ -2,8 +2,6 @@ import React from 'react';
 import { GatsbyImage, ImageDataLike, getImage } from 'gatsby-plugin-image';
 import { Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'gatsby';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -31,11 +29,11 @@ const DetailProject = ({ data }: IProps) => {
   return (
     <div className='max-w-5xl w-full mx-auto pt-4 px-4 mb-[96px]'>
       <Link className='absolute top-32 left-4' to='/projects'>
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={faArrowLeft}
           size='2x'
           className='hover:text-orange-300 hover:pointer text-[#262625]'
-        />
+  /> */}
       </Link>
       <div className='flex items-center w-full justify-center gap-4 pt-9'>
         <GatsbyImage image={logoImage!} alt={title} />
