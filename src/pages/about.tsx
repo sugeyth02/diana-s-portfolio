@@ -66,27 +66,6 @@ const About = () => {
                   <span className=' italic'>TOELF Course:</span> Centro Cultural
                   Salvadoreño Americano.
                 </li>
-                <li>
-                  [2022 San Salvador/ ES]{' '}
-                  <span className=' italic'>React Training</span> Applaudo
-                </li>
-              </ul>
-              <h2 className='text-2xl font-medium pb-3 pt-3'>My Experience</h2>
-              <ul className=' flex flex-col gap-2'>
-                <li>
-                  [2021 San Salvador/ ES]{' '}
-                  <span className=' italic'>
-                    Customer Service Agent
-                  </span>{' '}
-                  Teleperformance
-                </li>
-                <li>
-                  [2022-2023 San Salvador/ ES]{' '}
-                  <span className=' italic'>
-                    React Developer
-                  </span>{' '}
-                  Applaudo
-                </li>
               </ul>
             </div>
           </div>
@@ -174,6 +153,16 @@ const About = () => {
               <div className='bg-gray-200 flex mb-4'>
                 <span className='px-2 bg-yellow-300 text-slate-100'>Spring Boot</span>
                 <div  className='w-[50%] bg-yellow-400 '></div>
+                <span className='px-2'>50%</span>
+              </div>
+              <div className='bg-gray-200 flex mb-4'>
+                <span className='px-2 bg-sky-400 text-sky-100'>C#</span>
+                <div className='w-[60%] bg-sky-600 '></div>
+                <span className='px-2'>60%</span>
+              </div>
+              <div className='bg-gray-200 flex mb-4'>
+                <span className='px-2 bg-violet-500 text-violet-100'>.NET</span>
+                <div className='w-[50%] bg-violet-600 '></div>
                 <span className='px-2'>50%</span>
               </div>
             </div>
