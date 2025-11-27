@@ -13,7 +13,7 @@ const IndexPage = () => {
           <p className="text-slate-300  font-sans text-center break-word text-3xl">
             Hello, I'm <span className="text-orange-300">Diana Umaña</span>.
             <br />
-            I'm a Full Stack Web developer.
+            I'm a Front-End developer.
           </p>
           <button className="rounded-md border-2   p-3 hover:bg-cyan-600 text-slate-100 mt-8">
             <Link to="/about">View my work</Link>

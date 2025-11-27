@@ -8,10 +8,12 @@ interface IProps {
 
 const Main = ({ children }: IProps) => {
   return (
-    <div className=' h-full min-h-screen'>
+    <div className='h-full min-h-screen'>
       <NavBar />
-      {children}
-      <Footer />
+      <div className='pt-20 md:pt-0 md:ml-20'>
+        {children}
+        <Footer />
+      </div>
     </div>
   );
 };

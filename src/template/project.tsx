@@ -18,12 +18,12 @@ export const query = graphql`
       applied_concepts
       images {
         childImageSharp {
-          gatsbyImageData(placeholder: BLURRED, width: 600, height: 400)
+          gatsbyImageData(placeholder: BLURRED)
         }
       }
       logo {
         childImageSharp {
-          gatsbyImageData(placeholder: BLURRED, width: 50, height: 50)
+          gatsbyImageData(placeholder: BLURRED, width: 40, height: 40)
         }
       }
     }

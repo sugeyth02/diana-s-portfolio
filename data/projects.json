@@ -1,145 +1,83 @@
 [
-  {
+    {
+    "id": 1,
+    "layout": "single-project",
+    "slug": "belize-bank-app",
+    "title": "Belize Bank Mobile & Web App",
+    "link": "https://apps.apple.com/sv/app/belize-bank-mobile-banking/id1361907333?l=en-GB",
+    "preview": "Participated as a Frontend Developer building both the mobile banking app and its complementary web platform for Belize Bank. Contributed to secure interfaces, modern UI, and optimized customer experience.",
+    "logo": "./images/belize-bank/belize-bank.png",
+    "images": [
+      "./images/belize-bank/belize-bank-1.jpeg",
+      "./images/belize-bank/belize-bank-2.jpeg",
+      "./images/belize-bank/belize-bank-3.jpeg",
+      "./images/belize-bank/belize-bank-4.jpeg",
+      "./images/belize-bank/belize-bank-5.jpeg"
+    ],
+    "description": "I participated as a Frontend Developer for the Belize Bank mobile and web banking applications. My responsibilities included implementing secure data-transfer methods, building responsive and user-friendly interfaces, and applying best practices in performance, accessibility, and frontend architecture. Worked closely with security teams to ensure compliance with financial standards, contributing to a stable and professional digital banking experience used by thousands of customers.",
+    "applied_concepts": [],
+    "tags": [
+      "React Native",
+      "React",
+      "Security",
+      "Banking",
+      "Performance"
+    ]
+  },
+    {
     "id": 2,
     "layout": "single-project",
-    "slug": "weather-app",
-    "title": "Weather App",
-    "link": "https://github.com/sugeyth02/Weather-App",
-    "preview": "The Weather App help us to see how is the weather in an specific location showing us the current weather and the weather of the coming 5 days",
-    "logo": "./images/week02/logo.png",
+    "slug": "bombastic-ui",
+    "title": "Bombastic UI Library",
+    "link": "https://bombastic-ui-documentation.vercel.app/",
+    "preview": "Bombastic UI is a modern, open-source component library built to be fast, accessible, and framework-agnostic for JavaScript ecosystems.",
+    "logo": "./images/bombastic/bombastic.png",
     "images": [
-      "./images/week02/week02_slide1.jpg",
-      "./images/week02/week02_slide2.jpg",
-      "./images/week02/week02_slide3.jpg"
+      "./images/bombastic/bombastic-1.png",
+      "./images/bombastic/bombastic-2.png",
+      "./images/bombastic/bombastic-3.png",
+      "./images/bombastic/bombastic-4.png",
+      "./images/bombastic/bombastic-5.png"
     ],
-    "description": "The Weather App help us to see how is the weather in an specific location showing us the current weather and the weather of the coming 5 days, also each location shows a detailed information about the minimum and maximum temperature, the percentage of humidity and predictability. All this information is powered by https://www.metaweather.com/api/ .",
+    "description": "Bombastic UI is an open-source component library offering reusable, customizable, and performant UI components compatible with multiple JavaScript frameworks. I contributed by designing and developing new components, optimizing performance, and expanding documentation. The library focuses on developer experience, theming flexibility, clean API design, and modern UI patterns, enabling teams to build faster and more consistent interfaces.",
     "applied_concepts": [
-      "Asynchrnous requests",
-      "Promises",
-      "Fetching Data",
-      "Creation of dynamic DOM elements",
-      "CSS animations"
+      "Component Architecture",
+      "Design Systems",
+      "Accessibility (a11y)",
+      "Open Source",
+      "Theming",
+      "JavaScript Frameworks"
     ],
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "tags": [
+      "Design System",
+      "Open Source",
+      "UI Components",
+      "JavaScript"
+    ]
   },
   {
     "id": 3,
-    "slug": "sumbler-app",
     "layout": "single-project",
-    "title": "Sumbler App",
-    "link": "https://github.com/sugeyth02/Sumbler-App",
-    "preview": "Sumbler is a simulation of a social media platforms of posts like tumblr and relatedes",
-    "logo": "./images/week03/logo.png",
-    "images": [
-      "./images/week03/week03_slide1.jpg",
-      "./images/week03/week03_slide2.jpg",
-      "./images/week03/week03_slide3.jpg"
-    ],
-    "description": "Sumbler is a simulation of a social media platforms of posts like tumblr and relatedes, where we can publish some posts with tags, handled published posts, editing and deleting it, also the app has the feature to comment on posts of other authors.",
-    "applied_concepts": [
-      "Factory Pattern",
-      "Promises",
-      "Fetching Data",
-      "POST, PUT and DELETE",
-      "Throttle and Debounce High Order Functions",
-      "Classes"
-    ],
-    "tags": ["HTML", "CSS", "JavaScript"]
-  },
- 
-  {
-    "id": 6,
-    "layout": "single-project",
-    "slug": "game-blog-typescript",
-    "title": "Game Blog [TS + Routes + useReducer]",
-    "link": "https://github.com/sugeyth02/Game-Blog",
-    "preview": "Game Blog is an app that simulate a game shop online, in this project i upgrade the project to typeScript",
-    "logo": "./images/week06/logo.png",
-    "images": [
-      "./images/week06/week06_slide1.jpg",
-      "./images/week06/week06_slide2.jpg",
-      "./images/week06/week06_slide3.jpg"
-    ],
-    "description": "Game Blog is an app that simulate a game shop online, with out the payment feature. The App shows a list of games and all the descriptions about the publishers, platforms available, price, etc. it shows the in this project. In this project i upgrade the project to typeScript",
-    "applied_concepts": [
-      "Types",
-      "Interfaces",
-      "Linters",
-      "Enums",
-      "React Router",
-      "UseReducer Hook",
-      "UseEffect Hook",
-      "UseRef Hook",
-      "UseCallback Hook",
-      "Prettier",
-      "useMemo Hook",
-      "Memo Hook",
-      "Custom Hooks"
-    ],
-    "tags": ["HTML", "CSS", "TypeScript", "React"]
-  },
-  {
-    "id": 7,
-    "slug": "time-machine-tic-tac-toe",
-    "title": "Time Machine - Tic Tac Toe",
-    "link": "https://time-machine-tic-tac-toe.vercel.app/",
-    "preview": "The project is about two games. Time Machine and a Tic Tac Toe",
-    "logo": "./images/week07/logo.png",
-    "images": [
-      "./images/week07/week07_slide1.jpg",
-      "./images/week07/week07_slide2.jpg",
-      "./images/week07/week07_slide3.jpg"
-    ],
-    "description": "The project is about two games. Time Machine is game that saves the clicks that a user made in a matrix in order to show the trip that the user made at the end. Tic Tac Toe is the common x and cero game, but this one has one special functionality, the preview one that basically shows a reprise of the game.",
-    "applied_concepts": [
-      "Generics",
-      "Use Ref",
-      "Custom Hooks",
-      "UseReducer Hook",
-      "React Router"
-    ],
-    "tags": ["HTML", "SASS", "TypeScript", "React"]
-  },
-  {
-    "id": 8,
-    "slug": "marvel-app",
-    "title": "Marvel App",
-    "link": "https://marvel-app-lilac.vercel.app/",
-    "preview": "The marvel app it's a blog that show the characters, comics and stories of the Marvel World, with the features of searching and filtering the information",
-    "logo": "./images/week08/logo.png",
-    "images": [
-      "./images/week08/week08_slide1.jpg",
-      "./images/week08/week08_slide2.jpg",
-      "./images/week08/week08_slide3.jpg"
-    ],
-    "description": "The marvel app it's a blog that show the characters, comics and stories of the Marvel World, with the features of searching and filtering the information. Also in this project i applied some special functionalities that make the blog more interesting, the first one is the bookmark section where the user of the app can save the characters and the comics that he or she likes and it shows all the bookmarks in a page, the second functionality is about hidden characters or comics, in the case that the user does not like some of those he or she can hide it and it would not be shown on the lists",
-    "applied_concepts": [
-      "Redux",
-      "UseState",
-      "Custom Hooks",
-      "Layouts",
-      "React Router"
-    ],
-    "tags": ["HTML", "SASS", "TypeScript", "React","Testing"]
-  },
-  {
-    "id": 10,
     "slug": "feria-solidaridad",
     "title": "Feria Solidaridad",
     "link": "https://www.uca.edu.sv/servicio-social/feria-solidaridad",
-    "preview": "Feria de la solidaridad it's a project that i made for my social service at my university, the goal of this project was to create a website were the students of the university can see the diferent options that they have to make their social service. ",
+    "preview": "Feria de la solidaridad it's a project that I made for my social service at my university. The goal of this project was to create a website where university students can explore the different options available for completing their social service.",
     "logo": "./images/feria-solidaridad/logo-feria.png",
     "images": [
       "./images/feria-solidaridad/feria-solidaridad1.png",
       "./images/feria-solidaridad/feria-solidaridad2.png",
       "./images/feria-solidaridad/feria-solidaridad3.png"
     ],
-    "description": "Feria de la solidaridad it's a project that i made for my social service at my university, the goal of this project was to create a website were the students of the university can see the diferent options that they have to make their social service. ",
+    "description": "Feria de la solidaridad it's a project that I made for my social service at my university, where I built a website that helps university students explore and choose from multiple social service opportunities.",
     "applied_concepts": [
       "NextJs",
-      "Typscript",
+      "TypeScript",
       "Styled Components"
     ],
-     "tags": ["TypeScript", "NextJS", "Styled Components"]
+    "tags": [
+      "TypeScript",
+      "NextJS",
+      "Styled Components"
+    ]
   }
 ]
